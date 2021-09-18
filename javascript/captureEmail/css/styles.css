@@ -1,0 +1,47 @@
+.page-header{
+    background: #e1e2e3;
+    padding: 20px;
+}
+
+.content-area{
+    background: #a3e3f0;
+    height: 1500px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+    transform: scale(.8);
+    width: 80px;
+}
+.logo__sub{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+
+}
+
+.email-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* top: 94px;
+    width: 680px;
+    height: 500px; */
+    background: rgba(0, 0, 0, .5);
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+.email-modal--visible{
+    visibility: visible;
+    opacity: 1;
+}
