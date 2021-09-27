@@ -1,0 +1,100 @@
+:root{
+    font-family: sans-serif
+}
+* {
+}
+.box1 {
+  background: red;
+  padding: 20px;
+  width: 400px;
+}
+.box2 {
+  background: black;
+  padding: 20px;
+  color: white;
+  width: 400px;
+}
+.box3 {
+  background: purple;
+  padding: 20px;
+  width: 400px;
+}
+.box4 {
+  background: orange;
+  padding: 20px;
+  width: 300px;
+}
+
+#tools.box2 {
+  background: green;
+}
+
+.box2 h1 {
+  background: yellow;
+}
+
+.box3 h1 {
+  background: turquoise;
+}
+
+.box3 .box4 h1 {
+  background: tomato;
+}
+.box3 p + div + h1 {
+}
+
+.box3 p ~ div {
+}
+
+img [alt] {
+  width: 100px;
+}
+
+a[target='_blank'] {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  background: black;
+}
+
+img[alt~='goku'] {
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+  display: inline;
+}
+
+div::after {
+  content: ' ';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: green;
+}
+p::first-letter {
+  display: inline-block;
+  background: red;
+  color: black;
+  padding: 10px;
+}
+p::selection{
+    display: inline-block;
+    background: yellow;
+    color: black;
+}
+
+img:hover{
+    width: 50px;
+}
+
+p{
+    transition: all .5s;
+}
+
+p:hover{
+    background: blueviolet;
+}
+
+div:nth-child(1){
+    background: brown;
+}
