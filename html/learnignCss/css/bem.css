@@ -13,6 +13,7 @@ html{
   max-width: 1400px;
   margin: 0 auto;
 }
+/* article */
 .article {
   background: red;
 }
@@ -45,6 +46,51 @@ html{
 }
 
 .article__square-title{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.box {
+  padding: 20px;
+}
+
+/* article end */
+/* info */
+.info {
+  background: white;
+}
+
+.info--light {
+  color: #1b1b1b;
+}
+.info__title {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.info__description {
+  font-size: .8rem;
+  line-height: 1.4;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  width:400px;
+  text-align: justify;
+  display: inline-block;
+}
+
+.info__square {
+  width: 300px;
+  height: 300px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__square-title{
     font-size: 3rem;
     font-weight: 100;
 }
