@@ -1,0 +1,24 @@
+h1{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    text-align: center;
+    text-shadow: 3px 4px 10px red;   
+}
+h2{
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+p{
+    line-height: 1.2;
+    color: rgba(85, 83, 88, .4);
+    text-indent: 40px;
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <style>
+        .box1{
+            background: black;
+            color: white;
+            padding: 20px;
+            border: 2px solid red;
+            <!-- margin: 20px; -->
+        }
+        .box2{
+            background: plum;
+            color: white;
+            padding: 20px;
+            border: 2px solid orange;
+        }
+        .box3{
+            background: black;
+            color: white;
+            height: 300px;
+            width: 300px;
+        }
+        .box4{
+            background: blue;
+            color: white;
+        }
+        a{
+            display: block ;
+            background: red;
+            height: 200px;
+            width: 200px;
+        }
+        .notification{
+            background: gray;
+            color: black;
+            border-radius: 5px;
+            padding: 10px 20px;
+            display: inline-block;
+            color: white;
+            margin: 50px;
+            position: relative;
+        }
+        .number{
+            background: red;
+            color: white;
+            height: 25px;
+            width: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: .8rem;
+            border-radius: 50%;
+            position: absolute;
+            right: -15px;
+            top: -15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="notification">
+        inbox
+        <span class="number">3+</span>
+    </div>
+    <div class="box1">
+        box 1
+        <div class="box2">
+            Box2
+        </div>
+    </div>
+    <div class="box3">Box
+        <span>Testing</span>
+    </div>
+    <div class="box4">
+        Box4
+    </div>
+    <div class="box5">
+        Box5
+    </div>
+    <a href="#">Link<span>Text</span></a>
+</body>
+</html>

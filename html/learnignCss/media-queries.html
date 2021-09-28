@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+
+        .container{
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .box{
+            width: 100%;
+            background: red;
+            height: 500px;
+            color: black;
+        }
+        h1{
+            font-size: 3rem;
+            line-height: 1.4;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        p{
+            font-size: 1rem;
+            line-height: 1.4;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        .box2{
+            width:300px;
+            height: 200px;
+            background: black;
+            color: white;
+        }
+      /* laptop */
+      @media (max-width: 1919px){
+          .box{
+              width: 100%;
+              background: blue;
+              padding: 10px;
+            }
+        }
+        
+      /* Tablets */
+      @media (max-width: 1023px){
+          .box{
+              width: 100%;
+              background: purple;
+              padding: 10px;
+            }
+        }
+        
+        /* Mobile */
+        @media(max-width: 767px){
+            .box{
+                width: 100%;
+                background: yellow;
+                padding: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex, aspernatur assumenda voluptates numquam saepe omnis eveniet eum voluptatum dolorem et blanditiis tenetur atque debitis doloremque! Optio neque deleniti nesciunt?</p>
+            <div class="box2">
+                box2
+            </div>
+        </div>
+    </div>
+</body>
+</html>
