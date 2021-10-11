@@ -1,4 +1,4 @@
-const { request } = require('express'),
+const express  = require('express'),
 router = express.Router();
 
 // GET method route
