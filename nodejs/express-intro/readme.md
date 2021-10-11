@@ -2,6 +2,13 @@
 
 # Express example
 
+
+    // GET method route
+    // home route
+    app.get('/', (req, res) => {
+        res.send(`<h1>Welcome to express!!</h1>`);
+    });
+
 npm i nodemon express
 
 ## Package.json:
@@ -10,6 +17,7 @@ npm i nodemon express
 
 
 Express-intro
-├── app
+
+├── app                   
 │   └── server.js
 |   
