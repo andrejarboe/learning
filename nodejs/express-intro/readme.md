@@ -9,7 +9,7 @@
         res.send(`<h1>Welcome to express!!</h1>`);
     });
 
-npm i nodemon express
+npm i nodemon express pug
 
 ## Package.json:
     "start": "node app/serve/js",
