@@ -11,7 +11,8 @@ db.connect((error) => {
   if (!error) {
     console.log('Connected to the database');
     // Running Migration of tables
-    db.query('SELECT 1 FROM post LIMIT 1', (error, results) => {
+    // make sure tabel name is the name in all db.query()
+    db.query('SELECT 1 FROM posts LIMIT 1', (error, results) => {
       if (error) {
         // create table
         console.log('Creating table POST');

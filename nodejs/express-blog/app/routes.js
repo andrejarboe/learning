@@ -12,7 +12,12 @@ router.get('/post/create', (req, res) => {
 });
 
 router.post('/post/create', (req, res) => {
-  res.render('../assets/views/post/create.pug');
+  const post = req.body
+  // console.log(req.body);
+  res.json(post)
+  // console.log(res.json(post));
+  // res.render('../assets/views/post/create.pug');
+  // res.send('hit /post/create')
 });
 
 router.get('/pug', (req, res) => {
