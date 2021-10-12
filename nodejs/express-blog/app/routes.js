@@ -7,6 +7,9 @@ router.get('/', (req, res) => {
 router.get('/generic', (req, res) => {
   res.render('../assets/views/generic.pug');
 });
+router.get('/post/create', (req, res) => {
+  res.render('../assets/views/post/create.pug');
+});
 
 router.get('/pug', (req, res) => {
   res.render('../assets/views/testing.pug',
