@@ -11,6 +11,10 @@ router.get('/post/create', (req, res) => {
   res.render('../assets/views/post/create.pug');
 });
 
+router.post('/post/create', (req, res) => {
+  res.render('../assets/views/post/create.pug');
+});
+
 router.get('/pug', (req, res) => {
   res.render('../assets/views/testing.pug',
     {
