@@ -68,8 +68,13 @@ header a {
   text-decoration: none;
 }
 header .logo {
-  display: inline-block;
   float: left;
+}
+header .menu {
+  float: left;
+}
+header .header-buttons {
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -15,14 +15,14 @@ touch _content.scss
 touch _footer.scss
 touch _reset.scss
 
+
+cd ..
+
+sass --watch scss:css
+
  add to main.scss 
 @import "reset";
 @import "variables";
 @import "header";
 @import "content";
 @import "footer";
-
-
-cd ..
-
-sass --watch scss:css

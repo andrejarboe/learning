@@ -5,13 +5,13 @@ header{
         text-decoration: none;
     }
     .logo{
-        display: inline-block;
         float: left;
     }
     .menu{
-
-    }
-    .menu-buttons{
+        float: left;
         
+    }
+    .header-buttons{
+        float: right;        
     }
 }
