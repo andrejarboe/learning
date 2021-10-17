@@ -13,6 +13,7 @@ touch _variables.scss
 touch _header.scss
 touch _content.scss
 touch _footer.scss
+touch _reset.scss
 
 cd ..
 
