@@ -1,0 +1,42 @@
+header {
+  padding: 30px 20px;
+  background-color: red;
+}
+/* keep track of float elements, add to parent */
+header:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header a {
+  color: #4c44c1;
+  text-decoration: none;
+}
+header .logo {
+  display: inline-block;
+  float: left;
+}
+
+header .logo img {
+  width: 80px;
+  /* margin-right: 50px; */
+}
+header .menu {
+  float: left;
+  position: relative;
+  top: 20px;
+}
+header .menu a {
+  text-transform: uppercase;
+}
+header .header-buttons {
+  float: right;
+}
+header .header-buttons .blue-btn {
+  background: #4c44c1;
+  padding: 10px 40px;
+  border-radius: 35px;
+  color: white;
+  text-transform: uppercase;
+}
