@@ -20,7 +20,7 @@ header .logo {
 
 header .logo img {
   width: 80px;
-  /* margin-right: 50px; */
+  margin-right: 50px;
 }
 header .menu {
   float: left;
