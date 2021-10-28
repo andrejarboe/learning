@@ -20,7 +20,7 @@ header .logo {
 
 header .logo img {
   width: 80px;
-  margin-right: 50px;
+  margin-right: 28px;
 }
 header .menu {
   float: left;
@@ -32,6 +32,8 @@ header .menu a {
 }
 header .header-buttons {
   float: right;
+  position: relative;
+  top: 20px;
 }
 header .header-buttons .blue-btn {
   background: #4c44c1;
@@ -39,4 +41,5 @@ header .header-buttons .blue-btn {
   border-radius: 35px;
   color: white;
   text-transform: uppercase;
+
 }
