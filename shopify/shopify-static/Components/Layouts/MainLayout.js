@@ -1,9 +1,9 @@
-function MainLayout() {
+export default function MainLayout(props) {
     return (
-        <div>
-            
-        </div>
+        <>
+            <header>Header</header>
+            <main>{props.children}</main>
+            <footer>Footer</footer>
+        </>
     )
 }
-
-export default MainLayout
