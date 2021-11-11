@@ -13,8 +13,12 @@ export default function Header1() {
                <a href="/link">Link</a>
                <a href="/link">Link</a>
                <a href="/cart">
-                   <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+                   <i className="fas fa-shopping-cart" aria-hidden="true"></i>
                </a>
+               <a href="/link">
+                   <i className="fas fa-user" aria-hidden="true"></i>
+               </a>
+
            </div>
        </header>
     )
