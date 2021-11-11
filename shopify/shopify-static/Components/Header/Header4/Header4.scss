@@ -1,11 +1,11 @@
-.header1{
+//Header3.scss
+.header4{
     background: #fcfcfc;
     color: #1b1b1b;
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
-    height: 84px;
+    padding: 20px 10px;
     a{
         font-family: sans-serif;
         text-decoration: none;
@@ -25,9 +25,6 @@
         a{
             font-size: 2rem;
             font-family: 'Bebas Neue', cursive;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
     }
 }
