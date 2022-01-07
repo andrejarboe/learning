@@ -7,13 +7,13 @@ export default function MainLayout(props) {
     return (
         <>
             <Head>
-            <meta
+                <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
                 />
                 <meta name="description" content="Shopify Theme" />
                 <link rel="icon" href="/favicon.con" />
-                
+
                 <title>Company | </title>
             </Head>
             <Header1 />
