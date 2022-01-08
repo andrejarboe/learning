@@ -1,0 +1,41 @@
+.hero1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    &__bg{
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    &__content-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__info{
+        max-width: 400px;
+        color: #fff;
+    }
+    &__title{
+        font-size: 3rem;
+        font-family: 'Bebas Neue' cursive;
+    }
+    &__paragraph{
+        margin-bottom: 2rem;
+    }
+    &__button{
+        padding: 15px 30px;
+        background: white;
+    }
+}
