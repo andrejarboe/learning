@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import TodoItem from './components/TodoItem';
+import TodoList from './components/TodoList';
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
             <div className='mb-[20px] text-[36px] font-extrabold'>Good Morning, Andre</div>
             <h2 className='text-3xl'>Cooking</h2>
             <h2 className='text-3xl'>Cooking</h2>
-            <TodoItem />
+           <TodoList />
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ const SaveTodo = styled.i`
   border-radius: 4px;
   margin-right: -12px;
   color: #42c732;
-
+  
   &:hover {
     background-color: #2b6127;
     transition: 0.3s;
