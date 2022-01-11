@@ -3,24 +3,6 @@ import styled from 'styled-components';
 
 export default function Header() {
   return (
-    // <div className="flex h-[70px] items-center bg-[#20212d] px-10 drop-shadow-2xl shadow-2xl w-full space-x-4 sticky top-0">
-    //   <div className="text-white cursor-pointer">
-    //     <FaBars />
-    //   </div>
-    //   <div className="text-white flex items-center space-x-2 hover:bg-gray-900 px-[16px] py-[10px] rounded cursor-pointer">
-    //     <FaBorderAll />
-    //     <span>Dashboard</span>
-    //   </div>
-    //   <div className="text-white flex items-center space-x-2 hover:bg-gray-900 px-[16px] py-[10px] rounded cursor-pointer">
-    //     <FaImages />
-    //     <span>Collections</span>
-    //   </div>
-    //   <div className="flex-1"></div>
-    //   <div className="text-white flex items-center">
-
-    //     />
-    //   </div>
-    // </div>
     <Wrapper>
    
       <HeaderItem>
@@ -68,7 +50,7 @@ const Wrapper = styled.i`
 
 `;
 
-const HeaderItem = styled.i`
+const HeaderItem = styled.div`
   color: #eee;
   padding: 10px 16px;
   border-radius: 4px;
@@ -86,11 +68,11 @@ const HeaderItem = styled.i`
   }
 `;
 
-const Placeholder = styled.i`
+const Placeholder = styled.div`
   flex: 1;
 `;
 
-const Profile = styled.i`
+const Profile = styled.div`
 display: flex;
 align-items: center;
   img {
